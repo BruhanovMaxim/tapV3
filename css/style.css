@@ -120,7 +120,7 @@ nav li:nth-child(1) {
   margin: 20px 25px;
 }
 
-/* ===================PRICE==================== */
+/* ------------------------------------------------------> PRICE */
 
 .card {
   margin: 20px 20px;
@@ -157,8 +157,23 @@ nav li:nth-child(1) {
 .a_card:hover {
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
 }
+.price_h1Span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.table_price{
+  border-collapse: collapse;
+  width: 100%;
+}
 
-/* ===================MODAL-INFO================= */
+.table_price td, th {
+  border: 1px solid rgba(255,255,255, .1);
+  text-align: left;
+  padding: 14px;
+}
+
+/* ---------------------------------------------> MODAL-INFO */
 .modal_window {
   width: 100%;
   height: 100dvh;
@@ -168,18 +183,14 @@ nav li:nth-child(1) {
   justify-content: center;
 }
 .modal_settings {
-  /* display: inline-block; */
-  position: absolute;
-  left: 270px;
   color: #fff;
-  fill: rgb(255, 0, 234);
-  /* filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5)); */
+  fill: rgb(255, 255, 255);
 }
 
 .info_popup {
   visibility: hidden;
   width: 320px;
-  background-color: #fff6ea;
+  background-color: #fffbf6;
   padding: 15px;
   border-radius: 8px;
   position: absolute;
@@ -201,11 +212,12 @@ nav li:nth-child(1) {
   margin-top: 50px;
   padding: 10px 0px;
   border-radius: 8px;
-  background-color: #eedcb3;
+  background-color: #fff2d4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border: 0;
   outline: none;
 }
-/* =================MEDIA================== */
+/* -------------------------------------------------> MEDIA */
 @media (max-width: 400px) {
   .sidebar {
     width: 100%;

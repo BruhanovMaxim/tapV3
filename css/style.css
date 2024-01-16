@@ -91,7 +91,7 @@ nav li:nth-child(1) {
   background-color: rgb(130, 0, 255);
 }
 
-/* ==================Content================== */
+/* --------------------------------------------------------> Content */
 .container {
   max-width: 450px;
   margin: 0 auto;
@@ -99,7 +99,7 @@ nav li:nth-child(1) {
   /* border: 1px solid #26ff00; */
 }
 
-/* ===================Main=================== */
+/* --------------------------------------------------------> Main */
 .main {
   display: flex;
   align-items: center;
@@ -131,7 +131,6 @@ nav li:nth-child(1) {
   border-radius: 8px;
   padding: 30px;
   color: #fff;
-  position: relative;
 }
 
 .button_back a {
@@ -169,17 +168,17 @@ nav li:nth-child(1) {
   justify-content: center;
 }
 .modal_settings {
-  display: inline-block;
+  /* display: inline-block; */
   position: absolute;
-  left: 350px;
+  left: 270px;
   color: #fff;
-  fill: rgba(255, 255, 255, 0.4);
+  fill: rgb(255, 0, 234);
   /* filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5)); */
 }
 
 .info_popup {
   visibility: hidden;
-  width: 380px;
+  width: 320px;
   background-color: #fff6ea;
   padding: 15px;
   border-radius: 8px;

@@ -212,7 +212,7 @@ th {
   width: 320px;
   color: #fff;
   background-color: rgba(130, 0, 255, 0.2);
-  backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: blur(50px);
   border: var(--border);
   padding: 15px;
   border-radius: 8px;
@@ -224,7 +224,7 @@ th {
 }
 .open-popup {
   visibility: visible;
-  transform: translate(-50%, -90%) scale(1);
+  transform: translate(-50%, -85%) scale(1);
 }
 
 .info_popup h2 {

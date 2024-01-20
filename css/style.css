@@ -224,7 +224,7 @@ th {
 }
 .open-popup {
   visibility: visible;
-  transform: translate(-50%, -85%) scale(1);
+  transform: translate(-50%, -70%) scale(1);
 }
 
 .info_popup h2 {
@@ -242,7 +242,7 @@ th {
 }
 /* -------------------------------------------------> About Me */
 .button_time_line {
-  margin: 0px 20%;
+  margin: 0px 10%;
 }
 .timeline {
   position: relative;
@@ -349,11 +349,6 @@ th {
   position: absolute;
   top: 28px;
   z-index: 1;
-  /* border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 15px solid var(--default_color);
-  backdrop-filter: var(--backdrop-filter);
-  right: -14px; */
 }
 .right-container-arrow {
   height: 0;
@@ -361,14 +356,33 @@ th {
   position: absolute;
   top: 28px;
   z-index: 1;
-  /* border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 15px solid var(--default_color);
-  backdrop-filter: var(--backdrop-filter);
-  left: -14px;*/
 }
 /* -------------------------------------------------> MEDIA */
-@media (min-width: 320px) {
+@media screen and (max-width: 480px) {
+  .timeline {
+    margin: 50px auto;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .container2 {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text-box {
+    font-size: 13px;
+  }
+  .right-container {
+    left: 0;
+  }
+  .left-container img,
+  .right-container img {
+    left: 16px;
+  }
+}
+
+@media screen and (min-width: 320px) {
   .sidebar {
     width: 100%;
   }
@@ -380,7 +394,7 @@ th {
   }
 }
 
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .sidebar {
     width: 250px;
   }
@@ -392,7 +406,7 @@ th {
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .sidebar {
     width: 250px;
   }
@@ -404,7 +418,7 @@ th {
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .sidebar {
     width: 250px;
   }
@@ -415,7 +429,7 @@ th {
     font-size: 4rem;
   }
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .sidebar {
     width: 250px;
   }
@@ -427,7 +441,7 @@ th {
   }
 }
 
-@media (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .sidebar {
     width: 250px;
   }
@@ -439,7 +453,7 @@ th {
   }
 }
 
-@media (min-width: 1600px) {
+@media screen and (min-width: 1600px) {
   .sidebar {
     width: 250px;
   }
@@ -451,7 +465,7 @@ th {
   }
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .sidebar {
     width: 250px;
   }
